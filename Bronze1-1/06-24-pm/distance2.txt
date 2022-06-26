@@ -1,0 +1,23 @@
+
+Farmer John has haybales of different flavors at the spots 1, 2, ..., N. The flavor at each spot is specified by an integer. For each flavor v, Bessie can start from the left most spot with flavor v, eats the haybale. Then she goes to the right most flavor v and eats the haybale. Then she turns around and eats the left most haybale with flavor v. Bessie continues this process until she eats all the haybales with flavor v.
+
+Report the minimum (non-zero) total distance Bessie travels until she finishes all the haybales of any one flavor she picks. There exists at least one flavor that appears more than once.
+
+Input (from terminal / stdin)
+The first line contains integers N, 1 < N <= 1000.
+The second line specifies the flavors at the N spots. All flavors are in range [0, 1000].
+
+Output (to terminal / stdout)
+Report the minimum (non-zero) total distance Bessie travels.
+
+Sample input
+8
+1 0 2 0 3 0 1 2
+
+Sample output
+5
+
+To finish all the haybales of flavor 0, Bessie needs to travel a distance of 6. To finish all the haybales of flavor 1, Bessie needs to travel distance 6. To finish all haybales of flavor 2, Bessie needs to travel distance 5.
+
+
+Note: Submit your solution in file "distJohnSmith.java" or "distJohnSmith.cpp" if your name is John Smith.

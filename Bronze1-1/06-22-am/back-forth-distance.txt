@@ -1,0 +1,20 @@
+
+Farmer John has haybales of different flavors at the spots 1, 2, ..., N. The flavor at each spot is specified by an integer f[j] in the range [0, 1000]. Bessie likes flavor 0 the most. So she starts from the left most spot with flavor 0, eats the haybale. Then she goes to the right most flavor 0 and eats the haybale. Then she turns around and eats the left most haybale with flavor 0. Report the total distance Bessie travels until she finishes the last haybale with flavor 0.
+
+Input (from terminal / stdin)
+The first line contains integer N, N <= 1000.
+The second line specifies the flavors at the N spots.
+
+Output (to terminal / stdout)
+Report the total distance Bessie travels.
+
+Sample input
+8
+1 0 2 0 3 0 4 0
+
+Sample output
+12
+
+Bessie first goes from position 2 to position 8 travelling a distance of 6. Then she goes from position 8 to position 4 travelling a distance of 4. At last she goes from position 4 to position 6 travelling a distance of 2. The total distance is 6 + 4 + 2 = 12.
+
+Note: If your name is John Smith, submit the file "JohnSmith.java" or "JohnSmith.cpp".

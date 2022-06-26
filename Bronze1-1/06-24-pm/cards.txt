@@ -1,0 +1,34 @@
+
+Given N (3 <= N <= 100) cards where each card has an upper case letter (A-Z) followed by an integer (between 1 and 100). If Bessie picks three cards randomly (without replacement), what is the probability that any card shares a letter or an integer with at least one of the other cards? Express the probability in simplified fraction and display the numerator and denominator separated by a white space.
+
+Input (from terminal / stdin)
+The first line contains integer N.
+Each of the next N lines have a String with an upper case letter followed by an integer.
+
+No two cards are the same.
+
+Output (to terminal / stdout)
+Report the probability that any card shares a letter or an integer with at least one of the other cards, if three cards are picked up randomly. Display the numerator and denominator (simplified) separated by a white space.
+
+Sample input
+5
+A2
+A3
+B2
+B3
+C100
+
+Sample output
+2 5
+
+There are four combinations to pick three cards satisfying the requirement:
+
+A2, A3, B2
+A2, A3, B3
+A2, B2, B3
+A3, B2, B3
+
+There are total 10 combinations. So the probability is 4/10 = 2/5. So the output is "2 5".
+
+
+Note: Submit your solution in file "cardsJohnSmith.java" or "cardsJohnSmith.cpp" if your name is John Smith.

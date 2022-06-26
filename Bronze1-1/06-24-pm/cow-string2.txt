@@ -1,0 +1,27 @@
+
+Given n strings consisting of letters 'C', 'O', 'W', each having length L, display the K-th smallest string of length L that also has only letters 'C', 'O', or 'W', but is different from any of the n given strings. The strings are compared using the dictionary order.
+
+Input (from terminal / stdin)
+The first line contains integer n (n <= 100), integer L (L<=15), and integer K (K<=10^6).
+Each of the next n lines contain a string consisting of letters 'C', 'O', 'W'.
+
+Output (to terminal / stdout)
+Display the K-th smallest string consisting 'C', 'O', 'W' that is different from any of the n given strings.
+
+Sample input
+3 4 4
+COWO
+COWW
+CWOO
+
+Sample output
+CCOC
+
+The first four strings not from the input are:
+CCCC
+CCCO
+CCCW
+CCOC
+
+
+Note: Submit your solution in file "stringJohnSmith.java" or "stringJohnSmith.cpp" if your name is John Smith.
